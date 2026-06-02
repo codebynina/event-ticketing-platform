@@ -19,7 +19,7 @@ export default function Orders() {
       setError("");
 
       try {
-        const response = await fetch(api("/orders"), {
+        const response = await fetch(api(`/orders?userId=${user.id}`), {
           headers: {
             Authorization: `Bearer ${token}`,
           },
