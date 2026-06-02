@@ -39,7 +39,7 @@ export default function Orders() {
       }
     }
 
-    if (user) {
+    if (user && token) {
       fetchOrders();
     } else {
       setLoading(false);
