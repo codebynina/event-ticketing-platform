@@ -4,9 +4,9 @@ A modern event ticketing platform built with **Next.js**, where users can browse
 
 ## 🌐 Live Demo
 
-Frontend: [Coming Soon]
+Frontend: https://event-ticketing-platform-ruddy.vercel.app/
 
-API: [Coming Soon]
+API: https://event-ticketing-platform-em4s.onrender.com/api/events
 
 ---
 
@@ -23,9 +23,7 @@ This project allows users to:
 - Complete a checkout process
 - View purchased tickets and order history
 
-The project was originally developed in React and later migrated to Next.js using the App Router architecture.
-
----
+The project was originally developed using React and Vite, then migrated to Next.js using the App Router architecture as part of a modernization and deployment exercise.
 
 ## ✨ Features
 
@@ -59,6 +57,24 @@ The project was originally developed in React and later migrated to Next.js usin
 - Order creation
 - Order history
 - Individual order details
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](./screenshots/home-page.png)
+
+### Events Page
+
+![Events Page](./screenshots/events-page.png)
+
+### Checkout
+
+![Checkout](./screenshots/checkout-page.png)
+
+### Order Detail
+
+![My Tickets](./screenshots/order-detail-page.png)
 
 ---
 
